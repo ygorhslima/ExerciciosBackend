@@ -7,5 +7,5 @@ public class AutorModel
     public string ?Sobrenome { get; set; }
 
     // um autor pode ter criado vários livros, então para isso, é preciso criar uma lista de livros
-    public ICollection<LivroModel> Livros { get; set; }
+    public ICollection<LivroModel> ?Livros { get; set; }
 }

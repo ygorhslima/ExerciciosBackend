@@ -6,5 +6,5 @@ public class LivroModel
     public string ?Titulo { get; set; }
 
     // um livro pode ser um autor em específico
-    public AutorModel Autor {get;set;}
+    public AutorModel ?Autor {get;set;}
 }
